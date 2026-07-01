@@ -33,5 +33,4 @@ Keep this short and avoid working prompts or copy/paste challenge solutions.
 
 - Vulnerability and impact: what failed, and what could that enable?
 - Design lesson and mitigation: what system design allowed it, and how should it change?
-- Regression test: what automated check would catch this in the future?
-- Local harness scenario to build:
+- What we learned along the way: which attempts were misaligned, partial, or successful, and why?

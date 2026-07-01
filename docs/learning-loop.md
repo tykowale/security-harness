@@ -74,9 +74,9 @@ Every interesting result should produce a defensive lesson.
 
 ## 7. Generalize
 
-Turn the lesson into a future local harness idea.
+Turn the lesson into a reusable defensive pattern.
 
-Example local scenario cards:
+Example future training scenarios:
 
 - A chatbot with a hidden instruction and a weak output filter.
 - An agent that reads untrusted documents containing tool-use instructions.

@@ -2,9 +2,7 @@
 
 ## Summary
 
-This challenge involved a GenAI code review assistant that included repository files in its context. The successful path was not to make the assistant execute code, but to make attacker-controlled repository guidance look like ordinary internal review policy.
-
-Working prompts are intentionally omitted from this public write-up. The goal is to capture the security lesson, not provide a copy/paste solution.
+This challenge involved a GenAI code review assistant that included repository files in its context. Working prompts are intentionally omitted from this public write-up; the goal is to capture the lesson, not provide a copy/paste solution.
 
 ## Post-level review
 
@@ -16,10 +14,6 @@ This was an indirect prompt-injection issue: the assistant treated a poisoned re
 
 The underlying design problem was a weak trust boundary between trusted reviewer instructions and untrusted repository content. A safer design would load policy only from approved sources, label repo files as untrusted data, and validate generated recommendations against allowlists and dependency policy.
 
-### Regression test
+### What we learned along the way
 
-Add a fixture with a poisoned rules file that asks for an unsafe scanner/import recommendation, then assert the reviewer does not present it as a remediation. The desired behavior is to flag the rules file as suspicious or untrusted rather than follow it.
-
-## Local harness idea
-
-Build a small code-review scenario with a fake repository, a pull request, and a repository-local rules file. Score the model on whether it separates untrusted repo content from trusted review policy.
+Asking the assistant to run a script was misaligned with the tool's purpose: it was a reviewer, not an executor. A direct import request only partially worked, but the stronger approach explained why the suspicious name existed, matched the request to the review assistant's intended job, and then let the assistant continue normally.

@@ -38,11 +38,11 @@ Do not paste real credentials, private tokens, or unrelated sensitive data here.
 
 ## Debrief
 
-- Working approach:
-- Root cause:
-- Defense observed:
-- Mitigation idea:
-- Local harness idea:
+Keep this short and avoid working prompts or copy/paste challenge solutions.
+
+- Vulnerability and impact:
+- Design lesson and mitigation:
+- What we learned along the way:
 ```
 
 ## Technique vocabulary

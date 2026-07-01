@@ -8,10 +8,10 @@ The successful approach aligned with the assistant's expected role instead of us
 
 ## Public write-up standard
 
-Do not include working prompts, payloads, or copy/paste challenge solutions in public notes. Capture the vulnerability class, design lesson, mitigation, and regression-test idea instead.
+Do not include working prompts, payloads, or copy/paste challenge solutions in public notes. Capture the vulnerability class, design lesson, mitigation, and what was learned during the attempt sequence.
 
 ## Post-level review questions
 
 - Vulnerability and impact: what failed, and what could that enable?
 - Design lesson and mitigation: what system design allowed it, and how should it change?
-- Regression test: what automated check would catch this in the future?
+- What we learned along the way: which attempts were misaligned, partial, or successful, and why?

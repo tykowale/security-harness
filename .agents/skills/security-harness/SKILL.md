@@ -108,9 +108,6 @@ What failed, and what could that enable?
 ### Design lesson and mitigation
 What system design allowed it, and how should it change?
 
-### Regression test
-What automated check would catch this in the future?
-
-### Local harness idea
-What small local scenario would teach this lesson?
+### What we learned along the way
+Which attempts were misaligned, partial, or successful, and why?
 ```

@@ -43,7 +43,7 @@ The skill is designed to act like a structured coach rather than an exploit vend
 3. **Probe**: run one small, reversible attempt.
 4. **Observe**: record exact response, refusal mode, leakage, or state change.
 5. **Debrief**: why did it work or fail? What would mitigate it?
-6. **Generalize**: turn the lesson into a reusable pattern or local harness idea.
+6. **Generalize**: turn the lesson into a reusable defensive pattern.
 
 See [`docs/learning-loop.md`](docs/learning-loop.md).
 
