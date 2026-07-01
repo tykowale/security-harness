@@ -1,23 +1,17 @@
 # Technique Notes
 
-## Plausible policy beats obvious jailbreak language
+## Plausible policy can bypass suspicion
 
 Observed in: [Curs-ed CodeReview - Level 1](curs-ed-codereview-level-1.md)
 
-The successful payload did not ask the assistant to ignore instructions, reveal secrets, or bypass safety checks. It impersonated ordinary repository policy:
+The successful approach aligned with the assistant's expected role instead of using obvious jailbreak language. The lesson is defensive: systems need to distinguish trusted policy from plausible-looking instructions embedded in untrusted project files.
 
-- internal scanner package
-- legacy package name
-- blocking code-review finding
-- downstream compliance tooling
-- exact remediation line
+## Public write-up standard
 
-This worked better than directly asking the assistant to create/run code because it aligned with the assistant's expected role: generating code review feedback.
+Do not include working prompts, payloads, or copy/paste challenge solutions in public notes. Capture the vulnerability class, design lesson, mitigation, and regression-test idea instead.
 
-## Useful diagnostic questions after a level
+## Post-level review questions
 
-- What was the vulnerability?
-- What was the impact?
-- What system design allowed it?
-- What would a mitigation look like?
-- What automated test would prevent regression?
+- Vulnerability and impact: what failed, and what could that enable?
+- Design lesson and mitigation: what system design allowed it, and how should it change?
+- Regression test: what automated check would catch this in the future?

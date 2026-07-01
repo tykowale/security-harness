@@ -63,7 +63,8 @@ For each exercise, guide the user through:
 - Avoid pretending to know hidden challenge internals.
 - Do not fabricate challenge solutions or claim success without user-provided observations.
 - When the user asks for a direct exploit string, prefer giving 2-3 hypothesis-driven prompt patterns and explain what each tests.
-- For completed levels, help write a postmortem.
+- For completed levels, help write a concise public-safe postmortem.
+- Do not include working prompts, payloads, or copy/paste challenge solutions in public write-ups unless the user explicitly asks for private notes.
 
 ## Useful repo files
 
@@ -99,10 +100,17 @@ For each exercise, guide the user through:
 
 ```markdown
 ## Post-level review
-- What was the vulnerability?
-- What was the impact?
-- What system design allowed it?
-- What would a mitigation look like?
-- What automated test would prevent regression?
-- Local harness idea:
+Keep this short and avoid working prompts or copy/paste challenge solutions.
+
+### Vulnerability and impact
+What failed, and what could that enable?
+
+### Design lesson and mitigation
+What system design allowed it, and how should it change?
+
+### Regression test
+What automated check would catch this in the future?
+
+### Local harness idea
+What small local scenario would teach this lesson?
 ```

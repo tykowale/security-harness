@@ -47,11 +47,11 @@ User input -> Agent/model -> Tools/retrieval/state -> Output controls -> User-vi
 
 ## Post-level review
 
-- What was the vulnerability?
-- What was the impact?
-- What system design allowed it?
-- What would a mitigation look like?
-- What automated test would prevent regression?
+Keep this short and avoid working prompts or copy/paste challenge solutions.
+
+- Vulnerability and impact: what failed, and what could that enable?
+- Design lesson and mitigation: what system design allowed it, and how should it change?
+- Regression test: what automated check would catch this in the future?
 
 ## Defensive discussion
 
