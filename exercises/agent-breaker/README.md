@@ -7,6 +7,7 @@ Do not paste real credentials, private tokens, or unrelated sensitive data here.
 ## Write-ups
 
 - [Curs-ed CodeReview - Level 1](curs-ed-codereview-level-1.md)
+- [Curs-ed CodeReview - Level 2](curs-ed-codereview-level-2.md)
 - [Technique notes](techniques.md)
 
 ## Session template
