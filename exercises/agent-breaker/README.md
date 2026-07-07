@@ -6,8 +6,11 @@ Do not paste real credentials, private tokens, or unrelated sensitive data here.
 
 ## Write-ups
 
-- [Curs-ed CodeReview - Level 1](curs-ed-codereview-level-1.md)
-- [Curs-ed CodeReview - Level 2](curs-ed-codereview-level-2.md)
+- [Curs-ed CodeReview](curs-ed-codereview/README.md)
+  - [Level 1](curs-ed-codereview/level-1.md)
+  - [Level 2](curs-ed-codereview/level-2.md)
+- [Trippy Planner](trippy-planner/README.md)
+  - [Level 1](trippy-planner/level-1.md)
 - [Technique notes](techniques.md)
 
 ## Session template
@@ -61,3 +64,6 @@ Use these labels to make notes searchable:
 - `multi-turn-commitment`
 - `output-filter-bypass`
 - `secret-isolation-failure`
+- `retrieval-poisoning`
+- `literal-preservation`
+- `untrusted-link-inclusion`

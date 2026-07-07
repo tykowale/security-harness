@@ -52,7 +52,7 @@ See [`docs/learning-loop.md`](docs/learning-loop.md).
 - [x] Repository skeleton
 - [x] First project skill for scoped AI red-team coaching
 - [x] Attempt and exercise templates
-- [ ] Capture notes from Gandalf Agent Breaker levels
+- [x] Capture notes from Gandalf Agent Breaker levels
 - [ ] Define first local toy challenge as markdown
 - [ ] Add local challenge fixtures
 - [ ] Add scoring/evaluation scripts

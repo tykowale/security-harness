@@ -7,8 +7,8 @@
 - [x] Learning loop
 - [x] First skill: `security-harness`
 - [x] Attempt and exercise templates
-- [ ] Record Agent Breaker exercises as notes
-- [ ] Convert repeated patterns into named technique cards
+- [x] Record Agent Breaker exercises as notes
+- [x] Convert repeated patterns into named technique cards
 
 ## Phase 1: Local markdown challenges
 

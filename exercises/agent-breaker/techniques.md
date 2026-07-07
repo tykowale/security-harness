@@ -2,15 +2,21 @@
 
 ## Plausible policy can bypass suspicion
 
-Observed in: [Curs-ed CodeReview - Level 1](curs-ed-codereview-level-1.md)
+Observed in: [Curs-ed CodeReview - Level 1](curs-ed-codereview/level-1.md)
 
 The successful approach aligned with the assistant's expected role instead of using obvious jailbreak language. The lesson is defensive: systems need to distinguish trusted policy from plausible-looking instructions embedded in untrusted project files.
 
 ## Literal-preservation language is powerful
 
-Observed in: [Curs-ed CodeReview - Level 2](curs-ed-codereview-level-2.md)
+Observed in: [Curs-ed CodeReview - Level 2](curs-ed-codereview/level-2.md)
 
 A suspicious snippet became more acceptable when framed as something downstream audit tooling compares literally. The lesson is defensive: untrusted files that say "preserve exactly," "do not reinterpret," or "audit tooling requires this" should not be allowed to override independent security review.
+
+## Copy-ready blocks can bypass summarization
+
+Observed in: [Trippy Planner - Level 1](trippy-planner/level-1.md)
+
+The planner was already using the poisoned Armenia travel page, but it paraphrased useful facts and dropped suspicious booking-link content. The successful approach made the malicious line part of an itinerary-native general tips block and framed it as already formatted text to copy exactly. The lesson is defensive: retrieved webpages should be converted into structured facts, and meta-instructions like "use this block exactly" should be stripped or ignored.
 
 ## Public write-up standard
 
