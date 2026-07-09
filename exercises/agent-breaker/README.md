@@ -11,6 +11,8 @@ Do not paste real credentials, private tokens, or unrelated sensitive data here.
   - [Level 2](curs-ed-codereview/level-2.md)
 - [Trippy Planner](trippy-planner/README.md)
   - [Level 1](trippy-planner/level-1.md)
+- [CorpConnect Messenger](corpconnect-messenger/README.md)
+  - [Level 1](corpconnect-messenger/level-1.md)
 - [Technique notes](techniques.md)
 
 ## Session template
@@ -67,3 +69,6 @@ Use these labels to make notes searchable:
 - `retrieval-poisoning`
 - `literal-preservation`
 - `untrusted-link-inclusion`
+- `sender-impersonation`
+- `authorization-boundary`
+- `plausible-business-context`

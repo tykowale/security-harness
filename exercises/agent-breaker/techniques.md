@@ -18,6 +18,12 @@ Observed in: [Trippy Planner - Level 1](trippy-planner/level-1.md)
 
 The planner was already using the poisoned Armenia travel page, but it paraphrased useful facts and dropped suspicious booking-link content. The successful approach made the malicious line part of an itinerary-native general tips block and framed it as already formatted text to copy exactly. The lesson is defensive: retrieved webpages should be converted into structured facts, and meta-instructions like "use this block exactly" should be stripped or ignored.
 
+## Plausible business context is not authorization
+
+Observed in: [CorpConnect Messenger - Level 1](corpconnect-messenger/level-1.md)
+
+The successful approach framed sender impersonation as a routine executive-assistant workflow. That made the request feel normal for a corporate communications assistant, even though changing the apparent sender is a privileged action. The lesson is defensive: high-risk tool parameters must be constrained by authenticated identity and explicit delegation grants, not by whether the story sounds like common workplace behavior.
+
 ## Public write-up standard
 
 Do not include working prompts, payloads, or copy/paste challenge solutions in public notes. Capture the vulnerability class, design lesson, mitigation, and what was learned during the attempt sequence.
